@@ -1,0 +1,82 @@
+@media (max-width: 1024px) {
+    header ul {
+        width: 60%;
+    }
+    .texto2, .texto4, .texto6, .texto7 {
+        width: 60%;
+        transform: none;
+    }
+    .titulo-mental h2 {
+        font-size: 26px;
+    }
+    .professor, .autoestima {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .nav-links-mobile {
+        display: flex;
+    }
+    header ul {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .texto2, .texto4, .texto6, .texto7 {
+        width: 90%;
+        transform: none;
+    }
+    .titulo-mental {
+        width: 90%;
+    }
+    .titulo-mental h2, .professor, .autoestima {
+        font-size: 20px;
+    }
+    .saladeaula1, .saladeaula2, .abraco, .maca {
+        width: 90%;
+        padding: 0;
+    }
+    .texto3 h2, .texto5 h2 {
+        font-size: 30px;
+    }
+    .texto3 p, .texto5 p, .texto8 p, .texto10 p, .texto12 p, .texto14 p, .texto9 p, .texto11 p, .texto13 p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        width: 200px;
+    }
+    .eclipse-autoestima,
+    .eclipse-autoestima2,
+    .eclipse-autoestima3,
+    .eclipse-autoestima4,
+    .eclipse-autoestima5,
+    .eclipse-autoestima6,
+    .eclipse-autoestima7,
+    .eclipse-autoestima8,
+    .eclipse-autoestima9 {
+        width: 150px;
+        height: 150px;
+    }
+    .titulo-mental {
+        height: auto;
+        padding: 10px;
+    }
+    .texto2, .texto4, .texto6, .texto7 {
+        font-size: 16px;
+        padding: 10px;
+    }
+    header #b1, #b2, #b3 {
+        width: 100px;
+        height: 20px;
+    }
+    header ul {
+        gap: 5px;
+    }
+}
